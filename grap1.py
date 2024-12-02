@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import random
 
 # Judul aplikasi
-st.title("Visualisasi Graf dengan Streamlit")
+st.title("Visualisasi Graf Tak Berarah dengan Streamlit")
 
 # Input jumlah node dan edge
 num_nodes = st.number_input("Masukkan jumlah node:", min_value=1, max_value=100, value=5, step=1)
